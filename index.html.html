@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Message for You</title>
+    <link rel="stylesheet" href="letter_style.css">
+</head>
+<body>
+<div class="container">
+    <div class="envelope-wrapper">
+        <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                <strong>Dear Bff.</strong>
+                <p>
+stay strong always. have good times, enjoy your life, and keep smiling no matter what. i’m always here for you. 
+mayli✌</p>
+            </div>
+        </div>
+        <div class="heart"></div>
+    </div>
+</div>
+
+
+   <script>
+          const envelope = document.querySelector(".envelope-wrapper");
+          const heart = document.querySelector(".heart");
+          heart.addEventListener("click",()=>{
+            envelope.classList.toggle("flap")         
+        })
+             </script>
+</body>
+</html>
